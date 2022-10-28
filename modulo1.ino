@@ -10,6 +10,7 @@ unsigned long previousMillis2 = 0;
 unsigned long previousMillis3 = 0;
 const long interval30 = 30000;
 const long interval60 = 60000;
+int Loop2 = 60;
 
 //Definicoes dos pinos no ESP32
 #define DHT01data 26 //Cria um alias para o modulo DHT1 no pino 26 do ESP32.
