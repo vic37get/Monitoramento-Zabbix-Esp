@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+.vscode
+.txt
+.pytest_cache
