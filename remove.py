@@ -1,7 +1,9 @@
 with open('codigo.txt') as f:
-    dados = f.read()
+    dados = f.readlines()
 
+for linha in range(len(dados)):
+    dados[linha] = dados[linha][1:]
 
-for i in dados:
-    print(dados)
-    print('-----')
+with open('codigo.txt', 'w') as f:
+    for i in dados:
+        f.write(i)
